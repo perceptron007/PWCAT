@@ -21,6 +21,7 @@ export class QrCodeScanComponent implements OnInit, AfterViewInit {
   hasCameras = true;
   qrResultString: string;
   qrResult: Result;
+  autofocusEnabled = true;
   scannerEnabled = true;
   constructor() {}
 

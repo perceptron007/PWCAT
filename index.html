@@ -1,1 +1,49 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>PWCat</title><base href="/PWCAT/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"><link href="styles.c1422ce593a8a5439a8a.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.0349d7064d9a96329135.bundle.js"></script><script type="text/javascript" src="polyfills.5d1d5b016f19755a7d41.bundle.js"></script><script type="text/javascript" src="styles.68fc602a722def64842d.bundle.js"></script><script type="text/javascript" src="main.2bf175f1c3f100c4ec96.bundle.js"></script></body></html>
+<!doctype html><html lang="en"><head><style type="text/css">body, html {
+        height: 100%;
+      }
+      .app-loading {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+      .app-loading .spinner {
+        height: 200px;
+        width: 200px;
+        animation: rotate 2s linear infinite;
+        transform-origin: center center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+      .app-loading .spinner .path {
+        stroke-dasharray: 1, 200;
+        stroke-dashoffset: 0;
+        animation: dash 1.5s ease-in-out infinite;
+        stroke-linecap: round;
+        stroke: #ddd;
+      }
+      @keyframes rotate {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes dash {
+        0% {
+          stroke-dasharray: 1, 200;
+          stroke-dashoffset: 0;
+        }
+        50% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -35px;
+        }
+        100% {
+          stroke-dasharray: 89, 200;
+          stroke-dashoffset: -124px;
+        }
+      }</style><meta charset="utf-8"><title>PWCat</title><base href="/PWCat/"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#673ab7"><link rel="manifest" href="manifest.json"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"><noscript><h3 style="color: #673ab7; font-family: Helvetica; margin: 2rem;">Sorry, but app is not available without javascript</h3></noscript><link href="styles.b5bd3f7abff0ace5357c.bundle.css" rel="stylesheet"/></head><body><app-root><div class="app-loading"><div class="logo"></div><svg class="spinner" viewBox="25 25 50 50"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg></div></app-root><script type="text/javascript" src="inline.fe8f8e9373d193e76447.bundle.js"></script><script type="text/javascript" src="polyfills.5d1d5b016f19755a7d41.bundle.js"></script><script type="text/javascript" src="styles.68fc602a722def64842d.bundle.js"></script><script type="text/javascript" src="main.7d84048a2ec7fe2acd61.bundle.js"></script></body></html>
